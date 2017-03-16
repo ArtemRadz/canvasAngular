@@ -1,0 +1,56 @@
+html {
+    background: url("../img/background.jpg") no-repeat;
+}
+body {
+    margin-top: 20px;
+}
+canvas {
+	display: block;
+    background-color: #fff;
+	margin: 0px auto;
+    border: 1px solid firebrick;
+}
+label, input, button {
+	display: block;
+	margin: 0px auto;
+}
+label {
+	font-family: cursive;
+	font-size: 20px;
+    color: brown;
+}
+input {
+	font-family: fantasy;
+    padding-left: 5px;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #62227F;
+    border-radius: 15px;
+}
+button {
+	border: none;
+    background-color: darkorange;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 20px;
+    color: brown;
+    width: 125px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+	font-size: 22px;
+	color: blue;
+	transition: .2s;
+}
+span {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    color: red;
+}
+.conf_rect {
+	text-align: center;
+    margin-top: 10px;
+}

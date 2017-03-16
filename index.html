@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+		<script type="text/javascript" src="js/controller.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body ng-controller="mainController">
+		<canvas id="canvas" width="500" height="500"></canvas>
+		<div class="conf_rect">
+			<label>Ширина<input type="text" ng-model="width"></label>
+			<span ng-show="errorWidth">Ліміт 500</span>
+			<label>Висота<input type="text" ng-model="height"></label>
+			<span ng-show="errorHeight">Ліміт 500</span>
+			<label>Колір<input type="text" ng-model="color"></label>
+			<button ng-click="drawRect()">Draw Rect</button>
+		</div>
+	</body>
+</html>
